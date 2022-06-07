@@ -1,2 +1,3 @@
 # banan
-Banan Incorporated (fake company) organization monolothic repository
+
+Banan Inc (fake company) organization monolothic repository

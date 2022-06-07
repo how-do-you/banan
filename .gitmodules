@@ -1,0 +1,3 @@
+[submodule "crates/com-banan"]
+	path = crates/com-banan
+	url = https://github.com/how-do-you/com-banan

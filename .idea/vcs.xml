@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crates/com-banan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crates/com-banan-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crates/com-banan-frontend/test/hello" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crates/com-banan-tauri" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dej/tauri-gitpod-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hej/gitpod-test" vcs="Git" />
   </component>
 </project>

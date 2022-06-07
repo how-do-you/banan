@@ -1,3 +1,9 @@
 [submodule "crates/com-banan"]
 	path = crates/com-banan
 	url = https://github.com/how-do-you/com-banan
+[submodule "crates/com-banan-tauri"]
+	path = crates/com-banan-tauri
+	url = https://github.com/how-do-you/com-banan-tauri
+[submodule "crates/com-banan-frontend"]
+	path = crates/com-banan-frontend
+	url = https://github.com/how-do-you/com-banan-frontend

@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 6080
+tasks:
+  - command: "cd crates/com-banan-frontend && yarn && cd ../com-banan-tauri && cargo tauri dev"

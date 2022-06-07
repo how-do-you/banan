@@ -1,5 +1,5 @@
 setup = { cmd = [
-    { cmd = "git checkout main", working_dir = "crates/com-banan" },
-    { cmd = "git checkout main", working_dir = "crates/com-banan-frontend" },
-    { cmd = "git checkout main", working_dir = "crates/com-banan-tauri" }
+    { cmd = "git checkout main && git pull", working_dir = "crates/com-banan" },
+    { cmd = "git checkout main && git pull", working_dir = "crates/com-banan-frontend" },
+    { cmd = "git checkout main && git pull", working_dir = "crates/com-banan-tauri" }
 ] }

@@ -12,6 +12,6 @@ RUN apt update && \
         libayatana-appindicator3-dev \
         librsvg2-dev && \
     npm i -g yarn && \
-    cargo install tauri-cli && \
+    cargo install tauri-cli --locked --version "^1.0.0-rc" && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 USER gitpod

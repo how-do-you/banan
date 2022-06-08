@@ -17,7 +17,7 @@ cd crates/com-banan-tauri
 cargo tauri dev
 ```
 
-If you're on Gitpod, open the service on port 6080 to view the app. You can find the services in the menu on the left in
+If you're on Gitpod, open the service on port `6080` to view the app. You can find the services in the menu on the left in
 Gitpod. Note that by default when you launch in Gitpod it will immediately start building both the frontend and the
 tauri crates, hence the long wait time at the start. Be patient!
 

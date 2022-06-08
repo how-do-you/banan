@@ -12,6 +12,9 @@ Gitpod, your second most favorite IDE.
 ```shell
 # Build all crates
 cargo build
+# Install frontend dependencies
+cd crates/com-banan-frontend
+yarn
 # Launch Tauri
 cd crates/com-banan-tauri
 cargo tauri dev

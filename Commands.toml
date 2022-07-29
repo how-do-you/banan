@@ -1,8 +1,11 @@
 setup = { cmd = [
     { cmd = "git checkout main && git pull", working_dir = "crates/com-banan" },
-    { cmd = "git checkout main && git pull", working_dir = "crates/com-banan-frontend" },
+    { cmd = ["git checkout main && git pull", "yarn"], working_dir = "crates/com-banan-frontend" },
     { cmd = "git checkout main && git pull", working_dir = "crates/com-banan-tauri" }
 ] }
 
 [dev]
 tauri = { cmd = "cargo tauri dev", working_dir = "crates/com-banan-tauri" }
+
+[build]
+tauri = { cmd = "cargo tauri build", working_dir = "crates/com-banan-tauri" }

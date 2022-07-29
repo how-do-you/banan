@@ -3,4 +3,4 @@ image:
 ports:
   - port: 6080
 tasks:
-  - command: "cd crates/com-banan-frontend && yarn && cd ../com-banan-tauri && cargo tauri dev"
+  - command: "cargo cmd setup && cargo cmd dev"

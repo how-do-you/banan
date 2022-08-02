@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Banan</h1>
+<h1>🍌 Banan 🍌</h1>
 <p>Banan Inc (fake company) organization monolithic repository</p>
 <a href="https://gitpod.io/#https://github.com/how-do-you/banan"><img src="https://img.shields.io/badge/gitpod.io-launch-blue"></a>
 </div>
